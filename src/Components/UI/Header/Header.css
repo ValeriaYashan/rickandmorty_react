@@ -1,0 +1,12 @@
+.header{
+    background: url('../../../Images/fondo.jpeg') no-repeat;
+    background-position: center;
+    background-color: #f0f0f0;
+}
+.titulo{
+    margin: 0px;
+    color: rgb(32, 35, 41);
+    font-weight: 900;
+    font-size: 5.625rem;
+    text-align: center;
+}
