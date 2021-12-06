@@ -1,9 +1,9 @@
 import React from 'react'
 
-export const Button = ({ event }) => {
+export const Button = ({ evento }) => {
   return (
-    <main>
-      <button onClick={event}>Generate</button>
-    </main>
+    <div className="boton">
+      <button onClick={evento}>Clik</button>
+    </div>
   )
 }
