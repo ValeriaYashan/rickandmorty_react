@@ -1,0 +1,11 @@
+.buscar1{
+    border-radius: 4px;
+    font-size: 1.8rem;
+    background-color: #24282f;
+    color: #ffff;
+    text-align: center;
+}
+.buscar{
+    display: flex;
+    justify-content: center;
+}

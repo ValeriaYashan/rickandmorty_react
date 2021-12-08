@@ -1,15 +1,17 @@
 import React from 'react';
 import './Card.css';
 
-export const Card = (data) => {
-
-  const { name, image, species } = data.data;
+export const Card = ({ personaje }) => {
 
   return (
-    <div className="card">
-      <img src={image} alt={name} />
-      <h2>{name}</h2>
-      <p>{species}</p>
+    <div className="maincard">
+      <div className="card">
+        <img src={personaje.image} alt={personaje.name} />
+        <h2>{personaje.name}</h2>
+        <p>{personaje.species}</p>
+      </div>
     </div>
   )
 }
+
+export default Card;
